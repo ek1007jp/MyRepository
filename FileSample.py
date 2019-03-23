@@ -1,4 +1,5 @@
-# coding: UTF-8
+# coding: utf-8
 with open("README.txt", "r") as f1:
-    for f in f1.readlines():
-        print(f)
+    with open("output.txt", "w") as f2:
+        for f in f1.readlines():
+            f2.write(f)
