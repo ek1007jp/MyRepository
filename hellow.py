@@ -1,5 +1,5 @@
 def main_syori():
-    print("hellow")
+    print("hello")
 
 if __name__ == "__main__":
     main_syori()
