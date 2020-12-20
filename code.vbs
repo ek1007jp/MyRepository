@@ -10,7 +10,7 @@ Sub mainSyori(strName1, strName2)
     Set objOtf2 = objFso.OpenTextFile(strName2, 2, True)
  
     While Not objOtf1.AtEndOfStream
-        strbuf = objOtf1.ReadLine
+        strBuf = objOtf1.ReadLine
         If dataEdit(strBuf) Then
             objOtf2.WriteLine (strBuf)
         End If
